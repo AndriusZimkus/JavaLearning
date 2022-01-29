@@ -12,10 +12,9 @@ package HelloWorld;
 public class HelloWorld {
     
     public static void main(String[] args){
-        System.out.println("Hello World! Fifth edition"); 
-        int speedLimit = 80;
-        boolean flag1 = true;
-        float myFloat = 3.4F;
-        System.out.println(myFloat);    // prints 3.4
+        System.out.println("Hello World!");
+        // create variables
+        int a = 7, b = 11;
+        System.out.println(a < b);  // true
     }
 }
