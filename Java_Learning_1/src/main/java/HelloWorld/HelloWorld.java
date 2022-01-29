@@ -16,5 +16,7 @@ public class HelloWorld {
         // create variables
         int a = 7, b = 11;
         System.out.println(a < b);  // true
+        System.out.println(++a);
+        System.out.println(a);
     }
 }
